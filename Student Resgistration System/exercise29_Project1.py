@@ -5,7 +5,6 @@ from tkinter import messagebox
 class Student:
 
     def __init__(self,window):
-
         self.window=window
         self.window.geometry('1350x690+1+1')
         self.window.title('Schools Management System')
